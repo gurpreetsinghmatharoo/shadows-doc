@@ -14,16 +14,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>Gurpreet Singh</o:Author>
   <o:LastAuthor>Gurpreet Singh</o:LastAuthor>
-  <o:Revision>20</o:Revision>
-  <o:TotalTime>25</o:TotalTime>
+  <o:Revision>16</o:Revision>
+  <o:TotalTime>24</o:TotalTime>
   <o:Created>2018-03-31T12:07:00Z</o:Created>
-  <o:LastSaved>2018-03-31T12:46:00Z</o:LastSaved>
+  <o:LastSaved>2018-03-31T12:45:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>129</o:Words>
-  <o:Characters>737</o:Characters>
-  <o:Lines>6</o:Lines>
+  <o:Words>91</o:Words>
+  <o:Characters>525</o:Characters>
+  <o:Lines>4</o:Lines>
   <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>865</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>615</o:CharactersWithSpaces>
   <o:Version>14.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -697,19 +697,6 @@ Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"
 </span></span></span><![endif]>The shadows appear at the bottom of an object's
 mask. Keep that in mind if you think some object's shadow is not appearing
 correctly.</p>
-
-<h1>Example Instructions</h1>
-
-<p class=MsoNormal>There is an example room included with the asset, so that
-you can test the shadows. </p>
-
-<p class=MsoNormal>In it, the mouse controls the light source. The mouse wheel
-controls the blur power, and the left/right arrow keys control the blur
-distance.</p>
-
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
-
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
 </div>
 
