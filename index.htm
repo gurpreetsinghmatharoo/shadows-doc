@@ -22,16 +22,16 @@ w\:* {behavior:url(#default#VML);}
  <o:DocumentProperties>
   <o:Author>Gurpreet Singh</o:Author>
   <o:LastAuthor>Gurpreet Singh</o:LastAuthor>
-  <o:Revision>148</o:Revision>
-  <o:TotalTime>182</o:TotalTime>
+  <o:Revision>160</o:Revision>
+  <o:TotalTime>260</o:TotalTime>
   <o:Created>2018-03-31T12:07:00Z</o:Created>
-  <o:LastSaved>2018-04-06T12:56:00Z</o:LastSaved>
+  <o:LastSaved>2018-04-17T14:49:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
-  <o:Words>766</o:Words>
-  <o:Characters>4371</o:Characters>
-  <o:Lines>36</o:Lines>
-  <o:Paragraphs>10</o:Paragraphs>
-  <o:CharactersWithSpaces>5127</o:CharactersWithSpaces>
+  <o:Words>747</o:Words>
+  <o:Characters>4263</o:Characters>
+  <o:Lines>35</o:Lines>
+  <o:Paragraphs>9</o:Paragraphs>
+  <o:CharactersWithSpaces>5001</o:CharactersWithSpaces>
   <o:Version>14.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -43,8 +43,6 @@ w\:* {behavior:url(#default#VML);}
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:Zoom>108</w:Zoom>
-  <w:SpellingState>Clean</w:SpellingState>
-  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:PunctuationKerning/>
@@ -605,6 +603,19 @@ span.Heading2Char
 	mso-themecolor:accent6;
 	mso-themeshade:191;
 	font-weight:bold;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
 span.Heading15Char
 	{mso-style-name:"Heading 1\.5 Char";
 	mso-style-unhide:no;
@@ -656,25 +667,6 @@ p.Heading15, li.Heading15, div.Heading15
 	font-weight:bold;
 	font-style:italic;
 	mso-bidi-font-style:normal;}
-span.BalloonTextChar
-	{mso-style-name:"Balloon Text Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Balloon Text";
-	mso-ansi-font-size:8.0pt;
-	mso-bidi-font-size:8.0pt;
-	font-family:"Tahoma","sans-serif";
-	mso-ascii-font-family:Tahoma;
-	mso-hansi-font-family:Tahoma;
-	mso-bidi-font-family:Tahoma;}
-span.SpellE
-	{mso-style-name:"";
-	mso-spl-e:yes;}
-span.GramE
-	{mso-style-name:"";
-	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -1081,7 +1073,7 @@ style='font-size:36.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:
 
 <p class=MsoNormal align=center style='text-align:center'><i style='mso-bidi-font-style:
 normal'><span style='font-size:20.0pt;mso-bidi-font-size:11.0pt;line-height:
-115%'>--by <span class=SpellE>matharoo</span><o:p></o:p></span></i></p>
+115%'>--by matharoo<o:p></o:p></span></i></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:18.0pt;mso-bidi-font-size:11.0pt;line-height:115%'>Marketplace
@@ -1089,11 +1081,9 @@ Link<o:p></o:p></span></p>
 
 <h1>Usage Instructions</h1>
 
-<p class=MsoNormal>Use <span class=SpellE><b style='mso-bidi-font-weight:normal'>shadows_<span
-class=GramE>start</span></b></span><span class=GramE><b style='mso-bidi-font-weight:
-normal'>(</b></span><b style='mso-bidi-font-weight:normal'>depth)</b> to start
-the shadow system in a room. Read the <b style='mso-bidi-font-weight:normal'>Functions</b>
-section below to know how to use this function.</p>
+<p class=MsoNormal>Use <b style='mso-bidi-font-weight:normal'>shadows_start(depth)</b>
+to start the shadow system in a room. Read the <b style='mso-bidi-font-weight:
+normal'>Functions</b> section below to know how to use this function.</p>
 
 <div style='margin-bottom:10.0pt'>
 
@@ -1108,8 +1098,7 @@ text-align:center'>
 
 <h1>Functions</h1>
 
-<h2>• <span class=SpellE>shadows_<span class=GramE>start</span></span><span
-class=GramE>(</span>depth, [x, y]) •</h2>
+<h2>• shadows_start(depth, [x, y]) •</h2>
 
 <p class=MsoNormal>Use this function to start the shadow manager. It may go in
 a <b style='mso-bidi-font-weight:normal'>Create</b> or <b style='mso-bidi-font-weight:
@@ -1121,10 +1110,9 @@ style='font-size:18.0pt;mso-bidi-font-size:11.0pt;line-height:115%'>Arguments:<o
 <p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l4 level1 lfo2'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span class=GramE><b style='mso-bidi-font-weight:
-normal'>depth</b></span><b style='mso-bidi-font-weight:normal'>:</b> This will
-be the depth of the shadows. Set it to something high (like 1000) so that they
-appear below other objects. </p>
+</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>depth:</b>
+This will be the depth of the shadows. Set it to something high (like 1000) so
+that they appear below other objects. </p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l4 level1 lfo2'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
@@ -1143,8 +1131,7 @@ normal'>instance id</b> of the shadow manager.</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<h2>• <span class=SpellE>shadows_<span class=GramE>exceptions</span></span><span
-class=GramE>(</span>id, exceptions) •</h2>
+<h2>• shadows_exceptions(id, exceptions) •</h2>
 
 <p class=MsoNormal>There might be objects/instances that shouldn’t be casting
 shadows. So, you can mark them as exceptions using this function.</p>
@@ -1156,24 +1143,22 @@ style='font-size:18.0pt;mso-bidi-font-size:11.0pt;line-height:115%'>Arguments:<o
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>id</b>:
-id of the shadow manager, returned from <span class=SpellE><b style='mso-bidi-font-weight:
-normal'>shadows_start</b></span><b style='mso-bidi-font-weight:normal'>()</b></p>
+id of the shadow manager, returned from <b style='mso-bidi-font-weight:normal'>shadows_start()</b></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;mso-list:l3 level1 lfo4'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>exceptions</b>:
 id or object index to add to exceptions (add any amount of exceptions you want,
-separated by commas) <o:p></o:p></p>
+separated by commas) </p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<h2>• <span class=SpellE>cube_caster_create</span>(x, y, width, height, <span
-class=SpellE>z_height</span>) •<o:p></o:p></h2>
+<h2>• cube_caster_create(x, y, width, height, z_height) •</h2>
 
 <p class=MsoNormal>Using this function you can create a cube caster. It
 basically sets a rectangular area with a certain height to cast a shadow of a
-cube.<o:p></o:p></p>
+cube.</p>
 
 <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
 style='font-size:18.0pt;mso-bidi-font-size:11.0pt;line-height:115%'>Arguments:<o:p></o:p></span></b></p>
@@ -1182,13 +1167,13 @@ style='font-size:18.0pt;mso-bidi-font-size:11.0pt;line-height:115%'>Arguments:<o
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>x</b>: x
-position for the cube<o:p></o:p></p>
+position for the cube</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l3 level1 lfo4'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>y</b>: y
-position for the cube<o:p></o:p></p>
+position for the cube</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l3 level1 lfo4'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
@@ -1205,36 +1190,36 @@ Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"
 <p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;mso-list:l3 level1 lfo4'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span class=SpellE><b style='mso-bidi-font-weight:
-normal'>z_height</b></span>: the z height of the cube, that affects the shadow
-length</p>
+</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>z_height</b>:
+the z height of the cube, that affects the shadow length</p>
 
 <p class=MsoNormal>It returns the instance id of the cube caster created.</p>
 
 <p class=MsoNormal>You can edit a cube caster’s variables to change its
 properties:</p>
 
-<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l1 level1 lfo9'><![if !supportLists]><span
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l1 level1 lfo6'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span class=SpellE><b style='mso-bidi-font-weight:
-normal'>cubeW</b></span>: 2d width of the cube (x size)</p>
+</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>cubeW</b>:
+2d width of the cube (x size)</p>
 
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l1 level1 lfo9'><![if !supportLists]><span
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l1 level1 lfo6'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span class=SpellE><b style='mso-bidi-font-weight:
-normal'>cubeH</b></span>: 2d height of the cube (y size)</p>
+</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>cubeH</b>:
+2d height of the cube (y size)</p>
 
-<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;mso-list:l1 level1 lfo9'><![if !supportLists]><span
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;mso-list:l1 level1 lfo6'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span class=SpellE><b style='mso-bidi-font-weight:
-normal'>cubeZH</b></span>: the z height of the cube</p>
+</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>cubeZH</b>:
+the z height of the cube</p>
 
 <p class=MsoNormal style='text-indent:18.0pt'><i style='mso-bidi-font-style:
-normal'>In the picture below, you can see 3 cube casters. Cube casters themselves
-are invisible; the blue blocks you see are separate objects that spawn them.</i></p>
+normal'>In the picture below, you can see 3 cube casters. Cube casters
+themselves are invisible; the blue blocks you see are separate objects that
+spawn them.</i></p>
 
 <p class=MsoNormal style='text-indent:18.0pt'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype
  id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
@@ -1256,7 +1241,7 @@ are invisible; the blue blocks you see are separate objects that spawn them.</i>
  </v:formulas>
  <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
  <o:lock v:ext="edit" aspectratio="t"/>
-</v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1034" type="#_x0000_t75"
+</v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1035" type="#_x0000_t75"
  style='width:399pt;height:291pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="index_files/image001.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=532 height=388
@@ -1275,10 +1260,9 @@ text-align:center'>
 
 <h1>Customization</h1>
 
-<p class=MsoNormal>The customization variables are located in <span
-class=SpellE><b style='mso-bidi-font-weight:normal'>oShadowManager</b>’s</span>
-<b style='mso-bidi-font-weight:normal'>Create</b> event. Here are the
-explanations:</p>
+<p class=MsoNormal>The customization variables are located in <b
+style='mso-bidi-font-weight:normal'>oShadowManager</b>’s <b style='mso-bidi-font-weight:
+normal'>Create</b> event. Here are the explanations:</p>
 
 <div style='margin-bottom:10.0pt'>
 
@@ -1293,62 +1277,59 @@ text-align:center'>
 
 <p class=Heading15>Lighting Mode</p>
 
-<h2>• <span class=SpellE><span class=GramE>lightMode</span></span> •</h2>
+<h2>• lightMode •</h2>
 
 <p class=MsoNormal>This is the lighting mode. There are two lighting modes: 0
 and 1.</p>
 
-<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l2 level1 lfo6'><![if !supportLists]><span
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l2 level1 lfo8'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span class=SpellE><span class=GramE><b
-style='mso-bidi-font-weight:normal'>lightMode</b></span></span><b
-style='mso-bidi-font-weight:normal'> = 0<br>
+</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>lightMode
+= 0<br>
 </b><br>
-When <span class=SpellE><b style='mso-bidi-font-weight:normal'>lightMode</b></span>
-is 0, it will use the point light method for shadows. So, the shadows will be
-casted by a light that is at a certain position.<br>
-That position is stored in the <span class=SpellE><b style='mso-bidi-font-weight:
-normal'>lightX</b></span> and <span class=SpellE><b style='mso-bidi-font-weight:
-normal'>lightY</b></span> arrays. By default, it is the position of the <span
-class=SpellE><b style='mso-bidi-font-weight:normal'>oShadowManager</b></span>
+When <b style='mso-bidi-font-weight:normal'>lightMode</b> is 0, it will use the
+point light method for shadows. So, the shadows will be casted by a light that
+is at a certain position.<br>
+That position is stored in the <b style='mso-bidi-font-weight:normal'>lightX</b>
+and <b style='mso-bidi-font-weight:normal'>lightY</b> arrays. By default, it is
+the position of the <b style='mso-bidi-font-weight:normal'>oShadowManager</b>
 object.<br>
 <br>
-There is only one element in the <span class=SpellE><b style='mso-bidi-font-weight:
-normal'>lightX</b></span> and <span class=SpellE><b style='mso-bidi-font-weight:
-normal'>lightY</b></span> arrays. The first light source position is <span
-class=SpellE><span class=GramE><b style='mso-bidi-font-weight:normal'>lightX</b></span></span><span
-class=GramE><b style='mso-bidi-font-weight:normal'>[</b></span><b
-style='mso-bidi-font-weight:normal'>0], <span class=SpellE>lightY</span>[0]</b>.
+There is only one element in the <b style='mso-bidi-font-weight:normal'>lightX</b>
+and <b style='mso-bidi-font-weight:normal'>lightY</b> arrays. The first light
+source position is <b style='mso-bidi-font-weight:normal'>lightX[0], lightY[0]</b>.
 You can add more if you want multiple light sources.<br>
 <br>
-<span class=GramE>if</span> <span class=SpellE><b style='mso-bidi-font-weight:
-normal'>dynamicLen</b></span> is true, then the shadow’s length will be
-different based on its distance from the light source. Use the <span
-class=SpellE><b style='mso-bidi-font-weight:normal'>baseDist</b></span>
-variable to set at what distance the shadow’s size is 1.<br>
+if <b style='mso-bidi-font-weight:normal'>dynamicLen</b> is true, then the
+shadow’s length will be different based on its distance from the light source.
+Use the <b style='mso-bidi-font-weight:normal'>baseDist</b> variable to set at
+what distance the shadow’s size is 1.<br>
 <br>
-<span class=SpellE><span class=GramE><b style='mso-bidi-font-weight:normal'>maxDist</b></span></span>
-is the maximum distance till which the dynamic length has effect. If the
-distance to the light source is greater than this value, the shadow size won’t
-increase. <br style='mso-special-character:line-break'>
+<b style='mso-bidi-font-weight:normal'>maxDist</b> is the maximum distance till
+which the dynamic length has effect. If the distance to the light source is
+greater than this value, the shadow size won’t increase. <br>
+<br>
+You can use a <b style='mso-bidi-font-weight:normal'>for</b> loop to add the
+positions of your light objects (if any) inside the <b style='mso-bidi-font-weight:
+normal'>lightX</b> and <b style='mso-bidi-font-weight:normal'>lightY</b>
+arrays.<br style='mso-special-character:line-break'>
 <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
 <![endif]></p>
 
-<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;mso-list:l2 level1 lfo6'><![if !supportLists]><span
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;mso-list:l2 level1 lfo8'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><span class=SpellE><span class=GramE><b
-style='mso-bidi-font-weight:normal'>lightMode</b></span></span><b
-style='mso-bidi-font-weight:normal'> = 1<br>
+</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>lightMode
+= 1<br>
 <br>
-</b>When <span class=SpellE><b style='mso-bidi-font-weight:normal'>lightMode</b></span>
-is 1, it will use the directional method for shadows. This way, all of the
-shadows will be casted in the same direction.<br>
+</b>When <b style='mso-bidi-font-weight:normal'>lightMode</b> is 1, it will use
+the directional method for shadows. This way, all of the shadows will be casted
+in the same direction.<br>
 This method can be used for simulating the sun.<br>
 <br>
-<span class=SpellE><span class=GramE><b style='mso-bidi-font-weight:normal'>shadowDir</b></span></span>
-controls the direction towards which the shadows are casted.</p>
+<b style='mso-bidi-font-weight:normal'>shadowDir</b> controls the direction
+towards which the shadows are casted.</p>
 
 <div style='margin-bottom:10.0pt'>
 
@@ -1363,30 +1344,59 @@ text-align:center'>
 
 <p class=Heading15>Shadow Properties</p>
 
-<h2>• <span class=SpellE><span class=GramE>shadowLen</span></span> •</h2>
+<h2>• shadowLen •</h2>
 
-<p class=MsoNormal>This is the shadow height scale. It will be used even if <span
-class=SpellE><b style='mso-bidi-font-weight:normal'>dynamicLen</b></span> is
-enabled.</p>
+<p class=MsoNormal>This is the shadow height scale. It will be used even if <b
+style='mso-bidi-font-weight:normal'>dynamicLen</b> is enabled.</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<h2>• <span class=SpellE><span class=GramE>shadowColor</span></span> •</h2>
+<h2>• shadowColor •</h2>
 
 <p class=MsoNormal>This is the color of the shadows.</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<h2>• <span class=SpellE><span class=GramE>shadowAlpha</span></span> •</h2>
+<h2>• shadowAlpha •</h2>
 
 <p class=MsoNormal>This is the alpha/opacity of the shadows.</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<h2>• <span class=SpellE><span class=GramE>circleSize</span></span> •</h2>
+<h2>• circleSize •</h2>
 
-<p class=MsoNormal><span class=GramE>The size of the circle that is drawn with
-the shadows.</span> Set to 0 to disable the circle.</p>
+<p class=MsoNormal>The size of the circle that is drawn with the shadows. Set
+to 0 to disable the circle. <o:p></o:p></p>
+
+<div class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center'>
+
+<hr size=2 width="100%" align=center>
+
+</div>
+
+<p class=Heading15>Shader Constants</p>
+
+<p class=MsoNormal>These constants can be found in the fragment shader of the
+shader <b style='mso-bidi-font-weight:normal'>shSSBlur.</b> <o:p></o:p></p>
+
+<h2>• blurEnable •<o:p></o:p></h2>
+
+<p class=MsoNormal>Sets whether blur is enabled or not. Takes true/false.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h2>• blurPower •<o:p></o:p></h2>
+
+<p class=MsoNormal>This is the power/softness of the blur. Minimum value: 3. <o:p></o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h2>• blurAcc •<o:p></o:p></h2>
+
+<p class=MsoNormal>This is the accuracy of the blur shader. You may decrease
+this for performance if your game is of a lower resolution, or increase it if
+the game is of a higher resolution.</p>
 
 <div style='margin-bottom:10.0pt'>
 
@@ -1401,48 +1411,17 @@ text-align:center'>
 
 <p class=Heading15>Effects</p>
 
-<h2>• <span class=SpellE><span class=GramE>blurPower</span></span> •</h2>
-
-<p class=MsoNormal>This is the power/softness of the blur. Set to 0 to disable
-blur.</p>
-
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
-
-<h2>• <span class=SpellE><span class=GramE>blurDist</span></span> •</h2>
-
-<p class=MsoNormal>This is the impact of the blur on the sprite. Lower values
-(&lt;0.6) mean that more of the shadow will be affected by the blur, higher
-values (&gt;1.0) mean that the shadow will be less affected, appearing more
-solid.</p>
-
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
-
-<h2>• <span class=SpellE><span class=GramE>blurAccuracy</span></span> •</h2>
-
-<p class=MsoNormal>This is the accuracy of the blur <span class=SpellE>shader</span>.
-You may decrease this for performance if your game is of a lower resolution, or
-increase it if the game is of a higher resolution.</p>
-
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
-
-<h2>• <span class=SpellE><span class=GramE>blurDynamic</span></span> •</h2>
-
-<p class=MsoNormal>If this is true, then the sprite will be blurred more if it is
-longer, and less if it is shorter.</p>
-
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
-
-<h2>• <span class=SpellE><span class=GramE>distFading</span></span> •</h2>
+<h2>• distFading •</h2>
 
 <p class=MsoNormal>If this is true, then the shadow’s alpha will decrease the
 farther an object gets from a light source.</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<h2>• <span class=SpellE><span class=GramE>baseAlpha</span></span> •</h2>
+<h2>• baseAlpha •</h2>
 
-<p class=MsoNormal>If <span class=SpellE><b style='mso-bidi-font-weight:normal'>distFading</b></span>
-is enabled, then this is what defines beyond what distance the alpha starts to
+<p class=MsoNormal>If <b style='mso-bidi-font-weight:normal'>distFading</b> is
+enabled, then this is what defines beyond what distance the alpha starts to
 fade.</p>
 
 <div style='margin-bottom:10.0pt'>
@@ -1458,21 +1437,21 @@ text-align:center'>
 
 <p class=Heading15>Shadow Position</p>
 
-<h2>• <span class=SpellE><span class=GramE>bottomMask</span></span> •</h2>
+<h2>• bottomMask •</h2>
 
 <p class=MsoNormal>If this is true, then the shadows will appear at the bottom
 of the masks. Disable it to draw the shadows at the object position.</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<h2>• <span class=SpellE><span class=GramE>shadowOffsetX</span></span> •</h2>
+<h2>• shadowOffsetX •</h2>
 
 <p class=MsoNormal>This is the offset of the X coordinate of the shadows. It
 will be added to it.</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<h2>• <span class=SpellE><span class=GramE>shadowOffsetY</span></span> •</h2>
+<h2>• shadowOffsetY •</h2>
 
 <p class=MsoNormal>This is the offset of the Y coordinate of the shadows. It
 will be added to it.</p>
@@ -1485,15 +1464,13 @@ will be added to it.</p>
 
 <h1>Important Things You Should Know</h1>
 
-<p class=MsoListParagraph style='text-indent:-18.0pt;mso-list:l0 level1 lfo8'><![if !supportLists]><span
+<p class=MsoListParagraph style='text-indent:-18.0pt;mso-list:l0 level1 lfo10'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
 Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]>The shadows appear at the bottom of an object's
-mask. You can turn this off by disabling <span class=SpellE><b
-style='mso-bidi-font-weight:normal'>bottomMask</b></span>, and adjust the shadow
-location using the offset variables (<span class=SpellE><b style='mso-bidi-font-weight:
-normal'>shadowOffsetX</b></span> &amp; <span class=SpellE><b style='mso-bidi-font-weight:
-normal'>shadowOffsetY</b></span>).</p>
+mask. You can turn this off by disabling <b style='mso-bidi-font-weight:normal'>bottomMask</b>,
+and adjust the shadow location using the offset variables (<b style='mso-bidi-font-weight:
+normal'>shadowOffsetX</b> &amp; <b style='mso-bidi-font-weight:normal'>shadowOffsetY</b>).</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
@@ -1513,9 +1490,8 @@ text-align:center'>
 <p class=MsoNormal>There is an example room included with the asset, so that
 you can test the shadows. </p>
 
-<p class=MsoNormal>In it, the mouse controls the light source. The mouse wheel
-controls the blur power, and the left/right arrow keys control the blur
-distance.</p>
+<p class=MsoNormal>In it, the mouse controls a moving light source, along with
+having many static torches.</p>
 
 <div style='margin-bottom:10.0pt'>
 
