@@ -22,16 +22,16 @@ w\:* {behavior:url(#default#VML);}
  <o:DocumentProperties>
   <o:Author>Gurpreet Singh</o:Author>
   <o:LastAuthor>Gurpreet Singh</o:LastAuthor>
-  <o:Revision>160</o:Revision>
-  <o:TotalTime>260</o:TotalTime>
+  <o:Revision>164</o:Revision>
+  <o:TotalTime>261</o:TotalTime>
   <o:Created>2018-03-31T12:07:00Z</o:Created>
-  <o:LastSaved>2018-04-17T14:49:00Z</o:LastSaved>
+  <o:LastSaved>2018-04-18T12:33:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
-  <o:Words>747</o:Words>
-  <o:Characters>4263</o:Characters>
+  <o:Words>756</o:Words>
+  <o:Characters>4315</o:Characters>
   <o:Lines>35</o:Lines>
-  <o:Paragraphs>9</o:Paragraphs>
-  <o:CharactersWithSpaces>5001</o:CharactersWithSpaces>
+  <o:Paragraphs>10</o:Paragraphs>
+  <o:CharactersWithSpaces>5061</o:CharactersWithSpaces>
   <o:Version>14.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -1289,22 +1289,22 @@ Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"
 = 0<br>
 </b><br>
 When <b style='mso-bidi-font-weight:normal'>lightMode</b> is 0, it will use the
-point light method for shadows. So, the shadows will be casted by a light that
-is at a certain position.<br>
-That position is stored in the <b style='mso-bidi-font-weight:normal'>lightX</b>
-and <b style='mso-bidi-font-weight:normal'>lightY</b> arrays. By default, it is
-the position of the <b style='mso-bidi-font-weight:normal'>oShadowManager</b>
-object.<br>
+point light method for shadows. So, the shadows will be casted by lights that
+are at certain coordinates.<br>
+Those coordinates are stored in the <b style='mso-bidi-font-weight:normal'>lightX</b>
+and <b style='mso-bidi-font-weight:normal'>lightY</b> arrays. By default, the
+first point light is at the position of the <b style='mso-bidi-font-weight:
+normal'>oShadowManager</b> object.<br>
 <br>
-There is only one element in the <b style='mso-bidi-font-weight:normal'>lightX</b>
-and <b style='mso-bidi-font-weight:normal'>lightY</b> arrays. The first light
-source position is <b style='mso-bidi-font-weight:normal'>lightX[0], lightY[0]</b>.
-You can add more if you want multiple light sources.<br>
+By default, there is only one element in the <b style='mso-bidi-font-weight:
+normal'>lightX</b> and <b style='mso-bidi-font-weight:normal'>lightY</b>
+arrays. The first light source position is <b style='mso-bidi-font-weight:normal'>lightX[0],
+lightY[0]</b>. You can add more if you want multiple light sources.<br>
 <br>
 if <b style='mso-bidi-font-weight:normal'>dynamicLen</b> is true, then the
 shadow’s length will be different based on its distance from the light source.
 Use the <b style='mso-bidi-font-weight:normal'>baseDist</b> variable to set at
-what distance the shadow’s size is 1.<br>
+what distance the shadow’s size is the same as the sprite.<br>
 <br>
 <b style='mso-bidi-font-weight:normal'>maxDist</b> is the maximum distance till
 which the dynamic length has effect. If the distance to the light source is
@@ -1366,7 +1366,7 @@ style='mso-bidi-font-weight:normal'>dynamicLen</b> is enabled.</p>
 <h2>• circleSize •</h2>
 
 <p class=MsoNormal>The size of the circle that is drawn with the shadows. Set
-to 0 to disable the circle. <o:p></o:p></p>
+to 0 to disable the circle. </p>
 
 <div class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
 text-align:center'>
@@ -1378,21 +1378,21 @@ text-align:center'>
 <p class=Heading15>Shader Constants</p>
 
 <p class=MsoNormal>These constants can be found in the fragment shader of the
-shader <b style='mso-bidi-font-weight:normal'>shSSBlur.</b> <o:p></o:p></p>
+shader <b style='mso-bidi-font-weight:normal'>shSSBlur.</b> </p>
 
-<h2>• blurEnable •<o:p></o:p></h2>
+<h2>• blurEnable •</h2>
 
 <p class=MsoNormal>Sets whether blur is enabled or not. Takes true/false.</p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<h2>• blurPower •<o:p></o:p></h2>
+<h2>• blurPower •</h2>
 
-<p class=MsoNormal>This is the power/softness of the blur. Minimum value: 3. <o:p></o:p></p>
+<p class=MsoNormal>This is the power/softness of the blur. Minimum value: 3. </p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<h2>• blurAcc •<o:p></o:p></h2>
+<h2>• blurAcc •</h2>
 
 <p class=MsoNormal>This is the accuracy of the blur shader. You may decrease
 this for performance if your game is of a lower resolution, or increase it if
