@@ -22,16 +22,16 @@ w\:* {behavior:url(#default#VML);}
  <o:DocumentProperties>
   <o:Author>Gurpreet Singh</o:Author>
   <o:LastAuthor>Gurpreet Singh</o:LastAuthor>
-  <o:Revision>196</o:Revision>
-  <o:TotalTime>281</o:TotalTime>
+  <o:Revision>164</o:Revision>
+  <o:TotalTime>261</o:TotalTime>
   <o:Created>2018-03-31T12:07:00Z</o:Created>
-  <o:LastSaved>2018-04-28T11:48:00Z</o:LastSaved>
+  <o:LastSaved>2018-04-18T12:33:00Z</o:LastSaved>
   <o:Pages>4</o:Pages>
-  <o:Words>917</o:Words>
-  <o:Characters>5233</o:Characters>
-  <o:Lines>43</o:Lines>
-  <o:Paragraphs>12</o:Paragraphs>
-  <o:CharactersWithSpaces>6138</o:CharactersWithSpaces>
+  <o:Words>756</o:Words>
+  <o:Characters>4315</o:Characters>
+  <o:Lines>35</o:Lines>
+  <o:Paragraphs>10</o:Paragraphs>
+  <o:CharactersWithSpaces>5061</o:CharactersWithSpaces>
   <o:Version>14.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -1154,78 +1154,6 @@ separated by commas) </p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<h2>• light_source_create(x, y) •<o:p></o:p></h2>
-
-<p class=MsoNormal>For <b style='mso-bidi-font-weight:normal'>Light Mode 0</b>,
-it creates a light source at a position.<o:p></o:p></p>
-
-<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
-style='font-size:18.0pt;mso-bidi-font-size:11.0pt;line-height:115%'>Arguments:<o:p></o:p></span></b></p>
-
-<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l3 level1 lfo4'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>x:</b> x
-position of the light source</p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;mso-list:l3 level1 lfo4'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>y:</b> y
-position of the light source<o:p></o:p></p>
-
-<p class=MsoNormal>This function returns the id of the light source. Save it in
-a variable to be able to move/delete a light source.</p>
-
-<p class=MsoNormal>To get the x/y position of a light source, use the id
-returned from the function above in the <b style='mso-bidi-font-weight:normal'>oShadowManager.lightX[]</b>
-and <b style='mso-bidi-font-weight:normal'>oShadowManager.lightY[]</b> arrays.</p>
-
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
-
-<h2>• light_source_pos(id, x, y) •<o:p></o:p></h2>
-
-<p class=MsoNormal>Changes the position of a light source.<o:p></o:p></p>
-
-<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
-style='font-size:18.0pt;mso-bidi-font-size:11.0pt;line-height:115%'>Arguments:<o:p></o:p></span></b></p>
-
-<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l3 level1 lfo4'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>id: </b>id
-of the light source to move, returned from <b style='mso-bidi-font-weight:normal'>light_source_create()</b></p>
-
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt;mso-list:l3 level1 lfo4'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>x:</b> new
-x position of the light source<o:p></o:p></p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt;mso-list:l3 level1 lfo4'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>y:</b> new
-y position of the light source<o:p></o:p></p>
-
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
-
-<h2>• light_source_delete(id) •<o:p></o:p></h2>
-
-<p class=MsoNormal>Deletes a light source.<o:p></o:p></p>
-
-<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
-style='font-size:18.0pt;mso-bidi-font-size:11.0pt;line-height:115%'>Arguments:<o:p></o:p></span></b></p>
-
-<p class=MsoListParagraph style='text-indent:-18.0pt;mso-list:l3 level1 lfo4'><![if !supportLists]><span
-style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>id: </b>id
-of the light source to delete, returned from <b style='mso-bidi-font-weight:
-normal'>light_source_create()</b></p>
-
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
-
 <h2>• cube_caster_create(x, y, width, height, z_height) •</h2>
 
 <p class=MsoNormal>Using this function you can create a cube caster. It
@@ -1352,9 +1280,7 @@ text-align:center'>
 <h2>• lightMode •</h2>
 
 <p class=MsoNormal>This is the lighting mode. There are two lighting modes: 0
-and 1. The default is 0.</p>
-
-<p class=MsoNormal>0 uses point lights, 1 uses a single light source (sun).</p>
+and 1.</p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt;mso-list:l2 level1 lfo8'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
@@ -1366,21 +1292,28 @@ When <b style='mso-bidi-font-weight:normal'>lightMode</b> is 0, it will use the
 point light method for shadows. So, the shadows will be casted by lights that
 are at certain coordinates.<br>
 Those coordinates are stored in the <b style='mso-bidi-font-weight:normal'>lightX</b>
-and <b style='mso-bidi-font-weight:normal'>lightY</b> arrays. You can use the <b
-style='mso-bidi-font-weight:normal'>light_source</b> functions to add/manage
-the light sources.<br>
+and <b style='mso-bidi-font-weight:normal'>lightY</b> arrays. By default, the
+first point light is at the position of the <b style='mso-bidi-font-weight:
+normal'>oShadowManager</b> object.<br>
 <br>
-<b style='mso-bidi-font-weight:normal'><u>Variables:</u></b><br>
+By default, there is only one element in the <b style='mso-bidi-font-weight:
+normal'>lightX</b> and <b style='mso-bidi-font-weight:normal'>lightY</b>
+arrays. The first light source position is <b style='mso-bidi-font-weight:normal'>lightX[0],
+lightY[0]</b>. You can add more if you want multiple light sources.<br>
 <br>
 if <b style='mso-bidi-font-weight:normal'>dynamicLen</b> is true, then the
-shadow’s length will be different based on its distance from a light source.
+shadow’s length will be different based on its distance from the light source.
 Use the <b style='mso-bidi-font-weight:normal'>baseDist</b> variable to set at
 what distance the shadow’s size is the same as the sprite.<br>
 <br>
 <b style='mso-bidi-font-weight:normal'>maxDist</b> is the maximum distance till
 which the dynamic length has effect. If the distance to the light source is
-greater than this value, the shadow size won’t increase. <br style='mso-special-character:
-line-break'>
+greater than this value, the shadow size won’t increase. <br>
+<br>
+You can use a <b style='mso-bidi-font-weight:normal'>for</b> loop to add the
+positions of your light objects (if any) inside the <b style='mso-bidi-font-weight:
+normal'>lightX</b> and <b style='mso-bidi-font-weight:normal'>lightY</b>
+arrays.<br style='mso-special-character:line-break'>
 <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
 <![endif]></p>
 
@@ -1394,8 +1327,6 @@ Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"
 the directional method for shadows. This way, all of the shadows will be casted
 in the same direction.<br>
 This method can be used for simulating the sun.<br>
-<br>
-<b style='mso-bidi-font-weight:normal'><u>Variables:</u></b><br>
 <br>
 <b style='mso-bidi-font-weight:normal'>shadowDir</b> controls the direction
 towards which the shadows are casted.</p>
@@ -1447,7 +1378,7 @@ text-align:center'>
 <p class=Heading15>Shader Constants</p>
 
 <p class=MsoNormal>These constants can be found in the fragment shader of the
-shader <b style='mso-bidi-font-weight:normal'>shSSWhite.</b> </p>
+shader <b style='mso-bidi-font-weight:normal'>shSSBlur.</b> </p>
 
 <h2>• blurEnable •</h2>
 
@@ -1478,16 +1409,7 @@ text-align:center'>
 
 </div>
 
-<p class=Heading15>Effects<o:p></o:p></p>
-
-<h2>• blurDist •<o:p></o:p></h2>
-
-<p class=MsoNormal>This tells how early the blur starts in the shadows. So, if
-you set it to something low (around 0.2), more of the shadows would be blurred;
-if you set it to something high (around 1.6) then the sprite will be harder and
-less blurred.</p>
-
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+<p class=Heading15>Effects</p>
 
 <h2>• distFading •</h2>
 
@@ -1566,19 +1488,10 @@ text-align:center'>
 <h1>Example Instructions</h1>
 
 <p class=MsoNormal>There is an example room included with the asset, so that
-you can test the shadows.</p>
+you can test the shadows. </p>
 
 <p class=MsoNormal>In it, the mouse controls a moving light source, along with
 having many static torches.</p>
-
-<p class=MsoNormal>The <b style='mso-bidi-font-weight:normal'>blurDist</b> can
-be controlled using the mouse wheel. The lamps get destroyed when you click on
-them.</p>
-
-<p class=MsoNormal>About the code: the shadow system is set up in <b
-style='mso-bidi-font-weight:normal'>oSSPlayer</b>’s Create event, and the point
-lights are added in <b style='mso-bidi-font-weight:normal'>oSSLight</b>’s
-Create event.</p>
 
 <div style='margin-bottom:10.0pt'>
 
